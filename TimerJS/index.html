@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+</head>
+<body>
+    <div style="text-align:center">
+        <h1>You must finish in:</h1>
+        <h1 id="timerClock">60s</h1>
+    </div>
+
+    <div style="text-align:center">
+        <button onclick="startTime(); document.getElementById('timerClock').innerHTML='60';">Start</button><br><br><button onclick="clearInterval(myTimer);">Stop!</button>
+    </div>
+
+<script src="timer.js"></script>
+</body>
+</html>
